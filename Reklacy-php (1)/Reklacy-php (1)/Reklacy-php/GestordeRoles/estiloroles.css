@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-illustration-of-earth-preservation-3d-rendered-hand-holding-recycle-icon-image_3684729.jpg");
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+}
+.users-form, .users-table {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.users-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.users-form h2, .users-table h2 {
+    text-align: center;
+}
+.users-table inp {
+    color: rgb(255, 255, 255);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #0080006c; 
+
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: rgba(49, 165, 20, 0.767);
+}
+
+.users-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.users-table th, .users-table td {
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    padding: 10px;
+    text-align: center;
+}
+
+.users-table th {
+    background-color: #0080006c;
+    color: rgb(255, 255, 255);
+}
+
+.users-table a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.users-table--edit {
+    background-color: #3498db28;
+    color: white;
+}
+
+.users-table--edit:hover {
+    background-color: #2980b9;
+}
+
+.users-table--delete {
+    background-color: #e74d3c4b;
+    color: white;
+}
+
+.users-table--delete:hover {
+    background-color: #c0392b;
+}

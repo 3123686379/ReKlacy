@@ -1,0 +1,122 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-illustration-of-earth-preservation-3d-rendered-hand-holding-recycle-icon-image_3684729.jpg");
+    font-family: 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2 {
+    color:black;
+}
+
+
+
+
+.titulo {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+
+.slider-box {
+    
+    width: 1000px;
+    height: 12px;
+    margin: 50px auto 0;
+    overflow:-moz-hidden-unscrollable;
+}
+
+.slider-box ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 5s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    justify-items:center;
+    align-items: center;
+    width: 500%;
+    list-style:circle;
+    position: relative;
+}
+
+.texto {
+    align-items: center;
+    position:absolute;
+    text-align: center;
+    padding: 0 250px;
+    top:250px;
+    color:blueviolet
+}
+
+.texto h2{
+    align-items: center;
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+
+.slider-box img{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    position: absolute;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+@media(max-width:991px) {
+
+    body {
+        align-items: center;
+        padding: 30px;
+    }
+
+    .slider-box {
+        align-items: center;
+        width: 100%;
+    }
+
+    .texto {
+        align-items: center;
+        top: 50px;
+        padding: 0 25px;
+    }
+
+    .texto h2 {
+        align-items: center;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .texto p {
+        align-items: center;
+        font-size: 15px;
+    }
+}

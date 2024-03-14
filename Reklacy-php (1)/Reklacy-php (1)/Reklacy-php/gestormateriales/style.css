@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos para la página de actualización */
+.users-form {
+    background-color: #fff; /* Blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: 20px auto;
+}
+
+.users-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #800080; /* Morado */
+}
+
+.users-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.users-form input[type="submit"],
+.users-form input[type="reset"] {
+    background-color: #008000; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.users-form input[type="submit"]:hover,
+.users-form input[type="reset"]:hover {
+    background-color: #006400; /* Verde más oscuro al pasar el ratón */
+}

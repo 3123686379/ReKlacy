@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+    
+    display: block;
+    margin-top: auto;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-illustration-of-earth-preservation-3d-rendered-hand-holding-recycle-icon-image_3684729.jpg");
+    font-family: 'Times New Roman';
+    text-align: center;
+    margin: 20px;
+    padding: 15%;
+}
+
+label {
+    display:block;
+    margin-top: auto;
+    background-color: #89d78b;
+    padding: 8px;
+    width: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    list-style-type:none;
+    
+}
+h1{
+    color:white;
+    
+}
+input{
+    padding: 8px;
+    width: 10%;
+}
+
+
+</style>
+</head>
+
+<body>
+    <center>
+        <div class="login">
+        <h1>Login</h1>
+        <br><br><br>
+        
+        <form action="../login/autenticacion.php" method="post" onsubmit="return validateForm()">
+        
+            <label for="idUsuario"> 
+            <i class="fas fa-user"></i>
+            </label><br>
+            
+            <input type="text" name="idEmpleado" placeholder="ID del Empleado" id="idEmpleado" required>
+            <br><br>
+            
+            <label for="password">
+            <i class="fas fa-lock"></i>  
+            </label><br>
+            
+            <input type="password" name="password" placeholder="Contraseña" id="password" required>
+            <br><br><br><br>
+            <input type="submit" value="acceder">
+        </form>  
+        <br><br>
+        
+       
+        
+        
+
+        </div>
+        
+        
+        
+        
+        
+    </center>
+    
+</body>
+</html>
